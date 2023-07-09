@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h2,h1,p{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size:larger;
+      margin-bottom:10px;
+    }
+   .paragraph h1{
+      font-size:xx-large;
+    }
+    .paragraph{
+      width: 80%;
+      margin-left:10%;
+      margin-top:10%;
+    }
+   .paragraph a{
+      width:100px;
+      height: 30px;
+      background-color: #27b7f0;
+      border-radius: 10px;
+      border: #27b7f0 solid 1px;
+      transition:1s;
+      color:black;
+      padding:5px;
+    }
+   .paragraph a:hover{
+      transition:2s;
+      background-color: black;
+      color: #27b7f0;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+      <div style="text-align: center;margin-bottom:10px;">  <img src="./img/web dev (1).png" class="logo" alt="" style="height:70%;width: 40%;">
+      </div>
+     </div>
+
+    <div class="myname" style="text-align: center;">
+      <center><h1 style="font-size: x-large;">Areej</h1></center>
+    </div>
+
+    <div class="sidebar-links">
+      <ul>
+       
+        <li class="tooltip-element">
+          <a href="http://127.0.0.1:5501/index.html" data-active="0">
+            <div class="icon">
+              <i class='bx bx-home'></i>
+              <i class='bx bx-home'></i>
+            </div>
+            <span class="link hide">Home</span>
+          </a>
+        </li>
+        <li class="tooltip-element">
+          <a href="http://127.0.0.1:5501/about.html" data-active="1">
+            <div class="icon">
+              <i class='bx bxs-user-badge'></i>
+              <i class='bx bxs-user-badge'></i>
+            </div>
+            <span class="link hide">About</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="http://127.0.0.1:5501/edu.html" data-active="2">
+            <div class="icon">
+              <i class='bx bxs-school'></i>
+              <i class='bx bxs-school'></i>
+            </div>
+            <span class="link hide">Education</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+          <a href="http://127.0.0.1:5501/project.html" data-active="3">
+            <div class="icon">
+              <i class='bx bxs-book-content'></i>
+              <i class='bx bxs-book-content'></i>
+            </div>
+            <span class="link hide">Project</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+          <a href="http://127.0.0.1:5501/contact.html" data-active="3">
+            <div class="icon">
+              <i class='bx bxs-contact'></i>
+              <i class='bx bxs-contact'></i>
+            </div>
+            <span class="link hide">Contact</span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+  <main>
+    <div class="paragraph">
+       <h2>HI THERE!</h2>
+       <h1>I'M AREEJ FATIMA</h1>
+       <p class="text" style="margin-bottom:20px;">
+           I'm a front-end web developer and specialize in building interactive and responsive websites that deliver an exceptional user experience. I have a strong command of HTML, CSS, and JavaScript, which allows me to translate design concepts into pixel-perfect and cross-browser compatible code.  </p>
+       <a href="http://127.0.0.1:5501/about.html" class='bx bxs-user'>About me </a>
+   </div>
+    
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

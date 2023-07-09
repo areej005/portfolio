@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <style>
+   h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+    .paragraph{
+        text-align:center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  .paragraph span, #info span{
+        color: #176a8b;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+  
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+      <div style="text-align: center;margin-bottom:10px;">  <img src="./img/web dev (1).png" class="logo" alt="" style="height:70%;width: 40%;">
+      </div>
+     </div>
+
+    <div class="myname" style="text-align: center;margin-bottom:10px;">
+      <center><h1>Areej</h1></center>
+    </div>
+
+    <div class="sidebar-links">
+      <ul>
+       
+        <li class="tooltip-element">
+          <a href="http://127.0.0.1:5501/index.html" data-active="0">
+            <div class="icon">
+              <i class='bx bx-home'></i>
+              <i class='bx bx-home'></i>
+            </div>
+            <span class="link hide">Home</span>
+          </a>
+        </li>
+        <li class="tooltip-element">
+          <a href="http://127.0.0.1:5501/about.html" data-active="1">
+            <div class="icon">
+              <i class='bx bxs-user-badge'></i>
+              <i class='bx bxs-user-badge'></i>
+            </div>
+            <span class="link hide">About</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="http://127.0.0.1:5501/edu.html" data-active="2">
+            <div class="icon">
+              <i class='bx bxs-school'></i>
+              <i class='bx bxs-school'></i>
+            </div>
+            <span class="link hide">Education</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+          <a href="http://127.0.0.1:5501/project.html" data-active="3">
+            <div class="icon">
+              <i class='bx bxs-book-content'></i>
+              <i class='bx bxs-book-content'></i>
+            </div>
+            <span class="link hide">Project</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+          <a href="http://127.0.0.1:5501/contact.html" data-active="3">
+            <div class="icon">
+              <i class='bx bxs-contact'></i>
+              <i class='bx bxs-contact'></i>
+            </div>
+            <span class="link hide">Contact</span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+
+    
+  </nav>
+
+
+  <main>
+    <div class="paragraph" style="margin-bottom: 20px;">
+    <h1>My <span>Projects </span> </h1>
+    <hr>
+    </div>
+    <div style="width: 70%;margin-top: 20px;">
+        <h1 style="font-size:x-large;">Online Home Services</h1>
+        <p>Our home services web application simplifies the process of finding reliable service providers for your home needs. From plumbing and electrical repairs to cleaning and landscaping, our platform connects you with trusted professionals in your area</p>
+    </div>
+    <div style="width: 70%;margin-top: 20px;">
+        <h1 style="font-size:x-large;">Online Hijab Store</h1>
+        <p>This App Discovers a convenient way to explore and purchase hijabs. User Browse through a vast collection of stylish hijabs, filter by color, fabric, and style, and easily add your favorites to the cart.</p> 
+    </div>
+    <div style="width: 70%;margin-top: 20px;">
+        <h1 style="font-size:x-large;">Quiz App</h1>
+        <p>This App challenges your knowledge and have fun with our engaging. Test your skills in various subjects and topics through interactive quizzes with multiple-choice questions. </p> 
+    </div>
+    <div style="width: 70%;margin-top: 20px;">
+        <h1 style="font-size:x-large;">Weather App</h1>
+        <p>This App Provides real-time updates on current conditions, accurate forecasts, and interactive radar maps for your location.</p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
